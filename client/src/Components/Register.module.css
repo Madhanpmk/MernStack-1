@@ -1,0 +1,134 @@
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #293a4b;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.navLinks a:hover {
+  color: #f39c12;
+}
+
+.image1 {
+  margin-bottom: -11px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.image1:hover {
+  box-shadow: 0 10px 20px; 
+  border-radius: 100px;
+}
+
+/* Sidebar Styling */
+.contain {
+  display: flex;
+  height: calc(100vh - 60px);
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #34495e;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;  /* Enables scrolling if content overflows */
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  font-size: 18px;
+  transition: background 0.3s;
+}
+
+.sidebar a:hover {
+  background: #137864;
+}
+
+.nested {
+  padding-left: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.nested a {
+  font-size: 16px;
+}
+
+/* Main Content Styling */
+.maincontent {
+  flex-grow: 1;
+  
+  background: white;
+  /* Enables scrolling for content */
+  overflow-x: hidden;  /* Prevents horizontal scrolling */
+  max-height: calc(100vh - 60px);
+  height: 100%;  /* Ensures content doesn't overflow the page */
+}
+
+.head h1 {
+  margin-top: 10px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.admin {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.admin1, .admin2 {
+  background: #ecf0f1;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 20%;
+  box-shadow: 0 8px 8px black;
+}
+
+.admin h2 {
+  color: #2c3e50;
+}
+
+.admin p {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #ff1900;
+}
+
+.pc {
+  width: 40px;
+  height: 40px;
+}
+
+/* Footer Styles */
+.chartContainer {
+  width: 600px;
+  height: 250px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chartContainer h2 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 20px;
+}

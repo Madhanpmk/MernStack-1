@@ -1,0 +1,135 @@
+/* General Styling */
+body {
+ 
+ 
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for Data Display */
+.dataContainer {
+  max-width: 1200px;
+  margin: 80px auto 20px; /* Adjusted margin for navbar */
+  padding: 20px;
+}
+
+/* Page Heading */
+.h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Search Input */
+.searchInput {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: 0.3s;
+  margin: 80px auto 20px; /* Centering */
+  display: block;
+}
+
+.searchInput:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+/* Search Button */
+.searchButton {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #007bff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  display: block;
+  width: fit-content;
+  margin: 10px auto;
+}
+
+.searchButton:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Table Styling */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+.table tr:hover {
+  background: #f1f1f1;
+  transition: 0.3s;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #293a4b;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.navLinks a:hover {
+  color: #f39c12;
+}
+
+.image1 {
+  margin-bottom: -11px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.image{
+  width: 50px;
+  height: 50px;
+  top:30px;
+  position: fixed;
+  cursor: pointer;
+  }
+.image:hover{
+transform: scale(1.1); 
+box-shadow: 0 10px 20px rgb(0, 0, 0); 
+border-radius: 100px;
+opacity: 0.8; 
+}
+
+
